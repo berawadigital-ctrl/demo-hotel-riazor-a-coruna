@@ -1,0 +1,75 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.riazorhotel.com/",
+ "read_at": "2026-10-30T06:51:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.riazorhotel.com/",
+   "sha256": "e03249e005ff8f92680b78ebb6a5f27b5864e0222bdc060383fb585e5c7c4851",
+   "chars": 4923
+  },
+  {
+   "url": "https://www.riazorhotel.com/contacto",
+   "sha256": "ddfcef7adb0d5628050debc833d8386c363ae9c4f970d8599488407aeaef8469",
+   "chars": 1897
+  },
+  {
+   "url": "https://www.riazorhotel.com/entorno",
+   "sha256": "594ffabacee26666d02c1a46b9b1b6adb932b5907e3da71bce07498d269923bb",
+   "chars": 5744
+  },
+  {
+   "url": "https://www.riazorhotel.com/habitaciones",
+   "sha256": "a7e864f9e269bb7d786c67bb68ca69c40dbc2d477cb81439f1565625f0148aaa",
+   "chars": 3850
+  },
+  {
+   "url": "https://www.riazorhotel.com/habitaciones/adaptada",
+   "sha256": "40032592c66c1c837bc138e25be179aedb57ae1dbc6e07c89319cf743b137999",
+   "chars": 4428
+  },
+  {
+   "url": "https://www.riazorhotel.com/habitaciones/familiar",
+   "sha256": "2b4b7dd88bd7b51bbd01ccc22d9947cac9b186bb64c89cde20688d41bdc4cefe",
+   "chars": 4212
+  },
+  {
+   "url": "https://www.riazorhotel.com/habitaciones/junior-suite",
+   "sha256": "1da5b4e7b798565906cd3526fe6120a11dccb6dc19b4d02e9d4b3b8f2b71d515",
+   "chars": 4173
+  },
+  {
+   "url": "https://www.riazorhotel.com/habitaciones/triple",
+   "sha256": "bf8f4dea38e8203927d40aed20c28b107bab4e3334c06bb7ae35ce88ad0992b5",
+   "chars": 4413
+  },
+  {
+   "url": "https://www.riazorhotel.com/restaurante-cicero",
+   "sha256": "eb6e69279d64da511b48e6f5d5ce699419133879f8316cfb975e048690db9380",
+   "chars": 4969
+  },
+  {
+   "url": "https://www.riazorhotel.com/servicios",
+   "sha256": "b7795b722d41182e8d893976b24bdf0b1926284ee032c01cd81d607e5a514542",
+   "chars": 5616
+  }
+ ],
+ "other_pages_read": [
+  "https://www.riazorhotel.com",
+  "https://www.riazorhotel.com/aviso-legal",
+  "https://www.riazorhotel.com/en/",
+  "https://www.riazorhotel.com/es/onetbooking/request",
+  "https://www.riazorhotel.com/galeria",
+  "https://www.riazorhotel.com/habitaciones/doble-estandar-interior",
+  "https://www.riazorhotel.com/habitaciones/doble-estandar-vistas-al-mar",
+  "https://www.riazorhotel.com/habitaciones/habitacion-con-terraza-planta-11",
+  "https://www.riazorhotel.com/habitaciones/suite",
+  "https://www.riazorhotel.com/hotel",
+  "https://www.riazorhotel.com/ofertas",
+  "https://www.riazorhotel.com/pgc_simply_gallery/habitaciones",
+  "https://www.riazorhotel.com/politica-de-cookies",
+  "https://www.riazorhotel.com/politica-de-privacidad",
+  "https://www.riazorhotel.com/salones"
+ ]
+}
