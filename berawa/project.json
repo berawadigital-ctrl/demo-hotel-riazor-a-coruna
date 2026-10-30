@@ -1,0 +1,64 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-riazor-a-coruna",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-30T06:50:30+01:00",
+ "updated_at": "2026-10-30T07:00:00+01:00",
+ "business": {
+  "name": "Hotel Riazor",
+  "legal_name": "ABELURIA HOTELES S.L.",
+  "registry_ids": [
+   "NIF B70555495",
+   "RM A Coruña hoja C-57540"
+  ],
+  "url": "https://www.riazorhotel.com/",
+  "domain": "riazorhotel.com",
+  "municipality": "A Coruña",
+  "province": "A Coruña",
+  "address": "Avda. Pedro Barrie de la Maza, 29 · 15004 A Coruña",
+  "phones": [
+   "+34 981 253 400"
+  ],
+  "emails": [
+   "reservas@riazorhotel.com"
+  ],
+  "sector": "hotel boutique de 4 estrellas en primera línea de la playa de Riazor"
+ },
+ "rating": {
+  "value": 4.3,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Riazor/@43.3683538,-8.4090757,17z/data=!4m9!3m8!1s0xd2e7c62e62a34f3:0xc58783e46a6d097!5m2!4m1!1i2!8m2!3d43.3683538!4d-8.4090757!16s%2Fg%2F1ywqfz7rt",
+  "date": "2026-10-29T10:59:20+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://www.riazorhotel.com/es/onetbooking/request",
+  "note": "motor de reservas real de su web (onetbooking), HTTP 200 comprobado el 30/10/2026 en es y en."
+ },
+ "audit_original": {
+  "url": "https://www.riazorhotel.com/",
+  "date": "2026-10-30T06:46:10+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": null,
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
