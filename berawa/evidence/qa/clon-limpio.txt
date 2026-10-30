@@ -1,4 +1,4 @@
-HEAD d9e594a808b752a3782f88d24a75c1b915eac25e
+HEAD 7b667060bb7adb2bb623734aad92e653baebb8ea
 OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
 OK    tests_hotel_riazor_a_coruna: 4 idiomas + chatbot contra la base (HTTP)
 OK    a11y_test: axe-core + teclado (HTTP)

@@ -1,2 +1,1 @@
-git diff --check main...HEAD -> codigo de salida 2
-berawa/V1.0-CAMBIOS.md:11: new blank line at EOF.
+git diff --check main...HEAD -> codigo de salida 0

@@ -2,9 +2,9 @@
 
 Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-QA-CHECKLIST.md`) pasados por Grok antes del PR. **No es una auditoría independiente ni una aprobación**: Codex solo audita una muestra y nada se publica ni se envía sin visto bueno de Juan.
 
-- Rama: `demo/hotel-riazor-a-coruna` · HEAD de las pruebas: `d9e594a808b752a3782f88d24a75c1b915eac25e` · fecha: 30/10/2026 06:54 (Europe/Madrid)
+- Rama: `demo/hotel-riazor-a-coruna` · HEAD de las pruebas: `7b667060bb7adb2bb623734aad92e653baebb8ea` · fecha: 30/10/2026 07:04 (Europe/Madrid)
 - Entorno: Chromium de Playwright (instalado por `playwright install chromium` en el clon limpio), axe-core 4.14.0, Lighthouse 13.6.0 (3 pasadas, mediana).
-- Resultado: **QA_GROK_FAIL**
+- Resultado: **QA_GROK_PASS**
 - Negocio medido: Maps 4.3 (LEIDA, coincide tel, web) · web original: LCP > 4 s · titular ABELURIA HOTELES S.L. (persona jurídica, sin cadena).
 
 ## Controles A1–A11
@@ -20,12 +20,12 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 | A8 | Trazabilidad: un commit por bloque; scripts y evidencias commiteados; cambios V1.0 aparte | **CUMPLE** | git log de la rama; berawa/V1.0-CAMBIOS.md |
 | A9 | Precios del chatbot: REGLA DE PRECIOS: CUMPLE | **CUMPLE** | qa/check_kb.txt, qa/check_kb-zip.txt |
 | A10 | Reproducibilidad: clon limpio + dependencias documentadas + run_checks --file en verde; rg /workspace vacío | **CUMPLE** | qa/clon-limpio.txt, qa/rg-workspace.txt |
-| A11 | git diff --check main...HEAD sin salida | **NO** | qa/git-diff-check.txt |
+| A11 | git diff --check main...HEAD sin salida | **CUMPLE** | qa/git-diff-check.txt |
 
 ## Checklist C01–C16
 | Código | Control | Resultado | Evidencia |
 |---|---|---|---|
-| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = d9e594a808b752a3782f88d24a75c1b915eac25e (el SHA final del PR es el del commit que añade este informe) |
+| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 7b667060bb7adb2bb623734aad92e653baebb8ea (el SHA final del PR es el del commit que añade este informe) |
 | C02 | Identidad y fuentes | **CUMPLE** | nombre, teléfono, dirección y datos comerciales con cita literal en berawa/knowledge.json; titular persona jurídica sin cadena y nota de Maps en berawa/evidence/captacion.json |
 | C03 | Licencias | **CUMPLE** | asset_manifest.json: ilustraciones propias generadas (origin=generated) y fuente Cormorant OFL; ninguna imagen, logo ni vídeo del negocio |
 | C04 | Diseño personalizado y no suplantador | **CUMPLE** | paleta e ilustraciones propias, aviso «Propuesta de rediseño independiente, no oficial» arriba y en el pie, sin logo ni marca del negocio; revisión visual de qa/capturas/ |
@@ -53,4 +53,4 @@ SEO < 90 por el `noindex,nofollow` y el `robots.txt` con `Disallow: /` (is-crawl
 ## Límites
 - No probado en Safari ni Firefox ni con lector de pantalla.
 - Las imágenes son ilustraciones propias: no muestran el establecimiento y así se rotulan.
-- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 7.2 min.
+- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 7.9 min.
