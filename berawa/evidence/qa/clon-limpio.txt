@@ -1,0 +1,12 @@
+HEAD d9e594a808b752a3782f88d24a75c1b915eac25e
+OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
+OK    tests_hotel_riazor_a_coruna: 4 idiomas + chatbot contra la base (HTTP)
+OK    a11y_test: axe-core + teclado (HTTP)
+OK    contrast_manual: contraste de nodos «incompletos» de axe
+OK    keys_test: claves del chat sin ambiguedad
+OK    sec_scan: revision estatica + CSP efectiva
+OK    tests_hotel_riazor_a_coruna por file://
+OK    a11y_test por file://
+
+8/8 comprobaciones OK · resultados en /tmp/clon-hotel-riazor-a-coruna/out
+run_checks exit 0

@@ -1,0 +1,377 @@
+{
+ "url": "http://127.0.0.1:40479/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tienen doble estándar interior, doble estándar con vistas al mar, doble con terraza (planta 11 o 12), junior suite, suite, doble adaptada, t"
+    },
+    {
+     "q": "¿Hay habitación familiar?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: la habitación familiar (35–40 m², dos ambientes y un baño) es para 2 adultos y 2 niños; la triple (30–35 m²) es para 3 personas, y la ju"
+    },
+    {
+     "q": "¿A qué hora es el desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El restaurante Cícero abre todos los días. Desayuno buffet de lunes a viernes de 07:00 a 10:30 y fines de semana y festivos de 08:00 a 11:00"
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No se admiten mascotas, excepto perros de asistencia y perros adscritos a las Fuerzas Armadas y a las Fuerzas y Cuerpos de Seguridad del Est"
+    },
+    {
+     "q": "¿Puedo cancelar?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Según su web, la cancelación es sin cargo hasta 24 horas antes de la llegada; las condiciones se consultan en su motor de reservas."
+    },
+    {
+     "q": "¿Puedo salir más tarde?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Puedes alargar la hora de salida hasta las 14:00, bajo disponibilidad: solicítalo en recepción."
+    },
+    {
+     "q": "¿Hay gimnasio?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Hay gimnasio 24 horas, WiFi GPON, carta de almohadas (cervical, duvet, látex y top), recepción 24 horas con personal multilingüe, consigna d"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Hay parking público en las inmediaciones (su web no indica parking propio). Buenas conexiones de autobús, estación de tren a 2 km y aeropuer"
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Está en Avda. Pedro Barrie de la Maza, 29, 15004 A Coruña, en primera línea de la playa de Riazor (más de 600 metros de arena), junto al pas"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar), llamar al +34 981 253 400 o escribir a reservas@riazorhotel.com. Este as"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar), llamar al +34 981 253 400 o escribir a reservas@riazorhotel.com. Este as"
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 981 253 400 · reservas@riazorhotel.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 981 253 400 · reservas@riazorhotel.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Hay habitación familiar?",
+    "¿A qué hora es el desayuno?",
+    "¿Admitís mascotas?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "room2_n",
+    "room3_n",
+    "room5_n"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "They have interior standard doubles, sea-view standard doubles, doubles with terrace (11th or 12th floor), junior suites, suites, adapted do"
+    },
+    {
+     "q": "Is there a family room?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes: the family room (35–40 m², two areas and one bathroom) is for 2 adults and 2 children; the triple (30–35 m²) sleeps 3, and the junior s"
+    },
+    {
+     "q": "What time is breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Cícero restaurant is open every day. Buffet breakfast Monday to Friday 07:00–10:30, weekends and holidays 08:00–11:00; lunch 13:30–15:30, af"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Pets are not allowed, except assistance dogs and dogs of the Armed Forces and State security forces (stated on their website)."
+    },
+    {
+     "q": "Can I cancel?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "According to their website, cancellation is free of charge up to 24 hours before arrival; conditions are shown in their booking engine."
+    },
+    {
+     "q": "Can I have a late check-out?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "You can extend your check-out until 14:00, subject to availability: ask at reception."
+    },
+    {
+     "q": "Is there a gym?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "There is a 24-hour gym, GPON WiFi, a pillow menu (cervical, duvet, latex and top), 24-hour reception with multilingual staff, luggage storag"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "There is public parking nearby (their website does not mention a hotel car park). Good bus connections, the train station is 2 km away and A"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "It is at Avda. Pedro Barrie de la Maza, 29, 15004 A Coruña, right on Riazor beach (over 600 metres of sand), beside the 12 km seafront prome"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their website's booking engine (Book button), call +34 981 253 400 or write to reservas@riazorhotel.com. This assistant does"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on their website's booking engine (Book button), call +34 981 253 400 or write to reservas@riazorhotel.com. This assistant does"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 981 253 400 · reservas@riazorhotel.com."
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 981 253 400 · reservas@riazorhotel.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Is there a family room?",
+    "What time is breakfast?",
+    "Are pets allowed?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc5",
+    "room2_n",
+    "room3_n",
+    "room5_n"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Ils proposent des doubles standard intérieures, des doubles standard vue mer, des doubles avec terrasse (11e ou 12e étage), des junior suite"
+    },
+    {
+     "q": "Y a-t-il une chambre familiale ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui : la chambre familiale (35–40 m², deux espaces et une salle de bain) accueille 2 adultes et 2 enfants ; la triple (30–35 m²) 3 personnes"
+    },
+    {
+     "q": "À quelle heure est le petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le restaurant Cícero est ouvert tous les jours. Petit-déjeuner buffet du lundi au vendredi de 07h00 à 10h30, week-ends et jours fériés de 08"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Les animaux ne sont pas admis, sauf les chiens d'assistance et les chiens des forces armées et de sécurité de l'État (indiqué sur leur site)"
+    },
+    {
+     "q": "Puis-je annuler ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Selon leur site, l'annulation est sans frais jusqu'à 24 heures avant l'arrivée ; les conditions figurent dans leur moteur de réservation."
+    },
+    {
+     "q": "Puis-je faire un départ tardif ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Vous pouvez prolonger votre départ jusqu'à 14h00, selon disponibilité : demandez-le à la réception."
+    },
+    {
+     "q": "Y a-t-il une salle de sport ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Salle de sport 24 h/24, WiFi GPON, carte d'oreillers (cervical, duvet, latex et top), réception 24 h/24 avec personnel multilingue, bagageri"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Parking public à proximité (leur site n'indique pas de parking propre). Bonnes liaisons en bus, gare à 2 km et aéroport de La Corogne à 15 k"
+    },
+    {
+     "q": "Où se trouve l'hôtel ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "L'hôtel se trouve Avda. Pedro Barrie de la Maza, 29, 15004 La Corogne, face à la plage de Riazor (plus de 600 mètres de sable), le long de l"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de leur site (bouton Réserver), appeler le +34 981 253 400 ou écrire à reservas@riazorhote"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de leur site (bouton Réserver), appeler le +34 981 253 400 ou écrire à reservas@riazorhote"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 981 253 400 · reservas@riazorhotel.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 981 253 400 · reservas@riazorhotel.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Y a-t-il une chambre familiale ?",
+    "À quelle heure est le petit-déjeuner ?",
+    "Les animaux sont-ils admis ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "room3_n"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt Standard-Doppelzimmer innen und mit Meerblick, Doppelzimmer mit Terrasse (11. oder 12. Stock), Junior Suiten, Suiten, barrierefreie "
+    },
+    {
+     "q": "Gibt es ein Familienzimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja: Das Familienzimmer (35–40 m², zwei Bereiche und ein Bad) ist für 2 Erwachsene und 2 Kinder; das Dreibettzimmer (30–35 m²) für 3 Personen"
+    },
+    {
+     "q": "Wann gibt es Frühstück?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Das Restaurant Cícero ist täglich geöffnet. Frühstücksbuffet Montag bis Freitag 07:00–10:30 Uhr, am Wochenende und an Feiertagen 08:00–11:00"
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Haustiere sind nicht erlaubt, außer Assistenzhunden und Hunden der Streitkräfte und staatlichen Sicherheitskräfte (laut Website)."
+    },
+    {
+     "q": "Kann ich stornieren?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Laut Website ist die Stornierung bis 24 Stunden vor Anreise kostenlos; die Bedingungen stehen in der Buchungsmaschine."
+    },
+    {
+     "q": "Ist ein später Check-out möglich?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sie können den Check-out nach Verfügbarkeit bis 14:00 Uhr verlängern: bitte an der Rezeption anfragen."
+    },
+    {
+     "q": "Gibt es einen Fitnessraum?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Es gibt einen rund um die Uhr geöffneten Fitnessraum, GPON-WLAN, ein Kissenmenü (Nacken, Daune, Latex und Top), eine mehrsprachige Rezeption"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "In der Nähe gibt es öffentliche Parkplätze (ein hoteleigener Parkplatz wird auf der Website nicht genannt). Gute Busverbindungen, Bahnhof 2 "
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Das Hotel liegt in der Avda. Pedro Barrie de la Maza, 29, 15004 A Coruña, direkt am Strand von Riazor (über 600 Meter Sand) an der 12 km lan"
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine der Website buchen (Schaltfläche Buchen), unter +34 981 253 400 anrufen oder an reservas@riazorhotel.co"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine der Website buchen (Schaltfläche Buchen), unter +34 981 253 400 anrufen oder an reservas@riazorhotel.co"
+    },
+    {
+     "q": "Was kostet eine Übernachtung?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 981 253 400 · reservas@riazorhotel.com."
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 981 253 400 · reservas@riazorhotel.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es ein Familienzimmer?",
+    "Wann gibt es Frühstück?",
+    "Sind Haustiere erlaubt?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
