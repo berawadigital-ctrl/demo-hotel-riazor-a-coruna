@@ -76,5 +76,5 @@ Los textos proceden de la web pública del negocio ({dom}, leída el {rd}; ver `
 | V6 | `berawa/project.json` con nota de Maps (valor {rat['value']}, leída el {rf}, coincidencia: {', '.join(rat['coincide'])}) y auditoría original (LCP > 4 s) | `berawa/project.json` | JSON válido; cada dato con su fuente |
 
 {META.get('first_of_type') or ''}
-""")
+""".rstrip('\n')+'\n')
 print('docs escritos')
